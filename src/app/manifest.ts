@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Kas Keluarga - Keuangan & Kas Bersama",
-    short_name: "Kas Keluarga",
-    description: "Aplikasi manajemen kas, tagihan rutin, hutang piutang, dan target impian keluarga",
+    name: "B91 - Keuangan & Kas Bersama",
+    short_name: "B91",
+    description: "Aplikasi manajemen kas, tagihan rutin, hutang piutang, dan target impian",
     start_url: "/",
     display: "standalone",
     background_color: "#f8fafc",

@@ -5,12 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kas Keluarga - Keuangan & Kas Bersama",
-  description: "Aplikasi manajemen kas, tagihan rutin, hutang piutang, dan target impian keluarga",
-  applicationName: "Kas Keluarga",
+  title: "B91 - Keuangan & Kas Bersama",
+  description: "Aplikasi manajemen kas, tagihan rutin, hutang piutang, dan target impian",
+  applicationName: "B91",
   appleWebApp: {
     capable: true,
-    title: "Kas Keluarga",
+    title: "B91",
     statusBarStyle: "default",
   },
   formatDetection: {

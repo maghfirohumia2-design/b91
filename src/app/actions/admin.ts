@@ -5,8 +5,8 @@ import { AdminUser, UserProfile, UserRole } from "@/types/database";
 
 // Menggunakan Service Role Key agar punya akses Admin untuk membuat user
 // dan mem-bypass Row Level Security (RLS) jika ada.
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || "";
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://zjtxnmzkjxvvfkmzycnq.supabase.co";
+const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || "dummy-service-key-for-build";
 
 const supabaseAdmin = createClient(supabaseUrl, supabaseServiceKey, {
   auth: {

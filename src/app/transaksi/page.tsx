@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Plus } from "lucide-react";
 import TransactionList from "@/components/TransactionList";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export default async function TransaksiPage() {
